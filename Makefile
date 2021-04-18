@@ -39,5 +39,7 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 	rm -f $(LIB_DIR)*.a
+	
+tests_run:	clean
 
 re: fclean all
